@@ -28,14 +28,12 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     XMLNodeModel.cpp \
-    XMLNode.cpp \
-    AtTable.cpp
+    XMLNode.cpp
 
 HEADERS += \
         mainwindow.h \
     XMLNodeModel.h \
-    XMLNode.h \
-    AtTable.h
+    XMLNode.h
 
 FORMS += \
         mainwindow.ui
