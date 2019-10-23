@@ -1,6 +1,7 @@
 #include "AtTable.h"
 
-AtTable::AtTable()
+AtTable::AtTable(QWidget * parent) :
+    QTableWidget (parent)
 {
 
 }

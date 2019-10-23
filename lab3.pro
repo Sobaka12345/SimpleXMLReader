@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui xml
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -26,10 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    XMLNodeModel.cpp \
+    XMLNode.cpp \
+    AtTable.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    XMLNodeModel.h \
+    XMLNode.h \
+    AtTable.h
 
 FORMS += \
         mainwindow.ui

@@ -1,11 +1,13 @@
 #ifndef ATTABLE_H
 #define ATTABLE_H
 
+#include <QTableWidget>
 
-class AtTable
+class AtTable : public QTableWidget
 {
+    Q_OBJECT
 public:
-    AtTable();
+    AtTable(QWidget * parent);
 };
 
 #endif // ATTABLE_H
